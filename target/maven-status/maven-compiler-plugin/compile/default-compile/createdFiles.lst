@@ -1,0 +1,3 @@
+com\pabu5h\meter_reading\entity\MeterReadingModel.class
+com\pabu5h\meter_reading\repo\MeterReadingRepo.class
+com\pabu5h\meter_reading\entity\MeterReadingModel$MeterReadingModelBuilder.class
