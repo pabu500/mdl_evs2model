@@ -9,6 +9,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 
 @Data
 @Entity
@@ -23,7 +25,7 @@ public class MeterReadingModel {
     /* Example JSON:
 
     {
-     "uid":"BIE2IEYAAMACIADIAA",
+     "uid":"BIE2IEYAAMACIADIAA",`
      "msn":"202006000534",
      "kwh":"37.309",
      "dt":"2023-03-03T05:24:03"
@@ -47,5 +49,5 @@ public class MeterReadingModel {
     //Use shortened
     //Example: 2019-12-31T23:59:59
     @Column(name = "kwh_timestamp")
-    private String dt;
+    private LocalDateTime dt;
 }
