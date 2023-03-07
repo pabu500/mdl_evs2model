@@ -1,9 +1,14 @@
 package com.pabu5h.meter_reading.entity;
 
-import jakarta.persistence.*;
+//Spring Boot 3.0+
+//import jakarta.persistence.*;
+//Spring Boot 2.5+
+import javax.persistence.*;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+
 
 @Data
 @Entity
