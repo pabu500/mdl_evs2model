@@ -1,4 +1,4 @@
-package com.pabu5h.meter_reading.repo;
+package com.pabu5h.module.meter_reading;
 
 //Spring Boot 2.5+
 import org.springframework.data.repository.CrudRepository;
@@ -6,7 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 //import org.springframework.data.repository.ListCrudRepository;
 
 import org.springframework.stereotype.Repository;
-import com.pabu5h.meter_reading.entity.MeterReadingModel;
 
 @Repository
 public interface MeterReadingRepo extends CrudRepository<MeterReadingModel, Long> {

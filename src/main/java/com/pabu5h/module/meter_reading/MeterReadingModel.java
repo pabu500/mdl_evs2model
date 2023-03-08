@@ -1,4 +1,4 @@
-package com.pabu5h.meter_reading.entity;
+package com.pabu5h.module.meter_reading;
 
 //Spring Boot 3.0+
 //import jakarta.persistence.*;
