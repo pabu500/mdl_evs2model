@@ -25,7 +25,7 @@ public class MeterReadingModel {
     /* Example JSON:
 
     {
-     "uid":"BIE2IEYAAMACIADIAA",`
+     "uid":"BIE2IEYAAMACIADIAA",
      "msn":"202006000534",
      "kwh":"37.309",
      "dt":"2023-03-03T05:24:03"
