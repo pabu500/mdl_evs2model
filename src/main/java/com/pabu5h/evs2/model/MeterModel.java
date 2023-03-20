@@ -3,6 +3,7 @@ package com.pabu5h.evs2.model;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.type.descriptor.sql.LongVarcharTypeDescriptor;
 
 import javax.persistence.*;
@@ -15,6 +16,7 @@ import java.util.Map;
 @Entity
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "meter")
 public class MeterModel {
 
