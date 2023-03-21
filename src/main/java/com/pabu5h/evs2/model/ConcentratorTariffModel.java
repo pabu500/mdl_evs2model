@@ -24,5 +24,5 @@ public class ConcentratorTariffModel {
     public Long offer_id;
     public Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
     @Column
-    public Long tariff_price;
+    public Float tariff_price;
 }
