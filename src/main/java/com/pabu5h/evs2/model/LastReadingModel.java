@@ -22,6 +22,8 @@ public class LastReadingModel {
     @Column
     public String meter_sn;
     @Column
+    public Float last_reading_kwh;
+    @Column
     public LocalDateTime last_reading_timestamp;
     @Column
     public Float credit_balance;
