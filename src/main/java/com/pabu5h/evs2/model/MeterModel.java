@@ -24,50 +24,50 @@ public class MeterModel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column
-	public String meter_displayname;
+	private String meter_displayname;
 	@Column
-	public String meter_sn;
+	private String meter_sn;
 	@Column
-	public Long concentrator_id;
+	private Long concentrator_id;
 	@Column
-	public Float overused_kwh;
+	private Float overused_kwh;
 	@Column
-	public LocalDateTime overused_timestamp;
+	private LocalDateTime overused_timestamp;
 	@Column
-	public LocalDateTime kwh_timestamp;
+	private LocalDateTime kwh_timestamp;
 	@Column
-	public Long premise_id;
+	private Long premise_id;
 	@Column
-	public Long meter_status_id;
+	private Long meter_status_id;
 	@Column
-	public Long comm_module_id;
+	private Long comm_module_id;
 	@Column
-	public Integer read_lp;
+	private Integer read_lp;
 	@Column
-	public Integer meter_faulty_flag;
+	private Integer meter_faulty_flag;
 	@Column
-	public Integer estimated_overused_kwh;
+	private Integer estimated_overused_kwh;
 	@Column
-	public Integer pending_lp;
+	private Integer pending_lp;
 	@Column
-	public Integer pending_rt;
+	private Integer pending_rt;
 	@Column
-	public Integer min_purchase;
+	private Integer min_purchase;
 	@Column
-	public Integer pending_route;
+	private Integer pending_route;
 	@Column
-	public Integer pending_lp_timestamp;
+	private Integer pending_lp_timestamp;
 	@Column
-	public Integer pending_zero;
+	private Integer pending_zero;
 	@Column
-	public Integer can_cutoff;
+	private Integer can_cutoff;
 	@Column
-	public Integer evs_meter_type;
+	private Integer evs_meter_type;
 	@Column
-	public Integer adjust_ment_no;
+	private Integer adjust_ment_no;
 	@Column
-	public Integer plc_can_cutoff;
+	private Integer plc_can_cutoff;
 	@Column
-	public Integer esim_can_cutoff;
+	private Integer esim_can_cutoff;
 
 }

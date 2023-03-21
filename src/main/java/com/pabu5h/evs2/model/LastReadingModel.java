@@ -20,17 +20,17 @@ public class LastReadingModel {
     private Long id;
 
     @Column
-    public String meter_sn;
+    private String meter_sn;
     @Column
-    public Float last_reading_kwh;
+    private Float last_reading_kwh;
     @Column
-    public LocalDateTime last_reading_timestamp;
+    private LocalDateTime last_reading_timestamp;
     @Column
-    public Float credit_balance;
+    private Float credit_balance;
     @Column
-    public Float overused_kwh;
+    private Float overused_kwh;
     @Column
-    public Long offer_id;
+    private Long offer_id;
 
 
 }

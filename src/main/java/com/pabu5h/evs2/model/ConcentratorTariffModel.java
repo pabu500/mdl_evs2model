@@ -19,10 +19,10 @@ public class ConcentratorTariffModel {
     private Long id;
 
     @Column
-    public Long concentrator_id;
+    private Long concentrator_id;
     @Column
-    public Long offer_id;
-    public Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
+    private Long offer_id;
+    private Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
     @Column
-    public Float tariff_price;
+    private Float tariff_price;
 }

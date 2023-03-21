@@ -20,13 +20,13 @@ public class TariffModel {
     private Long id;
 
     @Column
-    public Float credit_balance;
+    private Float credit_balance;
     @Column
-    public LocalDateTime tariff_timestamp;
+    private LocalDateTime tariff_timestamp;
     @Column
-    public Float overused_kwh;
+    private Float overused_kwh;
     @Column
-    public String meter_sn;
+    private String meter_sn;
     @Column
-    public Long offer_id;
+    private Long offer_id;
 }
