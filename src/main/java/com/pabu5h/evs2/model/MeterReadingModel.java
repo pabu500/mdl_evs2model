@@ -51,4 +51,12 @@ public class MeterReadingModel {
     //Example: 2019-12-31T23:59:59
     @Column(name = "kwh_timestamp")
     private LocalDateTime dt;
+
+    public void nullAll(){
+        this.uid = null;
+        this.msn = null;
+        this.kwh = 0;
+        this.dt = null;
+    }
+
 }

@@ -19,7 +19,6 @@ import java.util.Map;
 @NoArgsConstructor
 @Table(name = "meter")
 public class MeterModel {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -69,5 +68,31 @@ public class MeterModel {
 	private Integer plc_can_cutoff;
 	@Column
 	private Integer esim_can_cutoff;
+
+	public void nullAll(){
+		this.meter_displayname = null;
+		this.meter_sn = null;
+		this.concentrator_id = null;
+		this.overused_kwh = null;
+		this.overused_timestamp = null;
+		this.kwh_timestamp = null;
+		this.premise_id = null;
+		this.meter_status_id = null;
+		this.comm_module_id = null;
+		this.read_lp = null;
+		this.meter_faulty_flag = null;
+		this.estimated_overused_kwh = null;
+		this.pending_lp = null;
+		this.pending_rt = null;
+		this.min_purchase = null;
+		this.pending_route = null;
+		this.pending_lp_timestamp = null;
+		this.pending_zero = null;
+		this.can_cutoff = null;
+		this.evs_meter_type = null;
+		this.adjust_ment_no = null;
+		this.plc_can_cutoff = null;
+		this.esim_can_cutoff = null;
+	}
 
 }

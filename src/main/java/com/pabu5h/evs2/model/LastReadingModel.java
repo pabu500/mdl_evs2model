@@ -32,5 +32,12 @@ public class LastReadingModel {
     @Column
     private Long offer_id;
 
-
+    public void nullAll(){
+        this.meter_sn = null;
+        this.last_reading_kwh = null;
+        this.last_reading_timestamp = null;
+        this.credit_balance = null;
+        this.overused_kwh = null;
+        this.offer_id = null;
+    }
 }
