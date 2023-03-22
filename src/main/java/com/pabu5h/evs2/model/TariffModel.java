@@ -29,4 +29,12 @@ public class TariffModel {
     private String meter_sn;
     @Column
     private Long offer_id;
+
+    public void nullAll(){
+        this.credit_balance = null;
+        this.tariff_timestamp = null;
+        this.overused_kwh = null;
+        this.meter_sn = null;
+        this.offer_id = null;
+    }
 }

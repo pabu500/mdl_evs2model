@@ -25,4 +25,11 @@ public class ConcentratorTariffModel {
     private Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
     @Column
     private Float tariff_price;
+
+    public void nullAll(){
+        this.concentrator_id = null;
+        this.offer_id = null;
+        this.tariff_type = null;
+        this.tariff_price = null;
+    }
 }
