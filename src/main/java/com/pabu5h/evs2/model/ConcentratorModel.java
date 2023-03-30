@@ -37,6 +37,7 @@ public class ConcentratorModel {
     private String comm_server_ip;
 
     public void nullAll(){
+        this.id = null;
         this.ip = null;
         this.address = null;
         this.upload_interval = null;

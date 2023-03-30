@@ -53,6 +53,7 @@ public class MeterReadingModel {
     private LocalDateTime dt;
 
     public void nullAll(){
+        this.id = null;
         this.uid = null;
         this.msn = null;
         this.kwh = 0;

@@ -33,6 +33,7 @@ public class LastReadingModel {
     private Long offer_id;
 
     public void nullAll(){
+        this.id = null;
         this.meter_sn = null;
         this.last_reading_kwh = null;
         this.last_reading_timestamp = null;

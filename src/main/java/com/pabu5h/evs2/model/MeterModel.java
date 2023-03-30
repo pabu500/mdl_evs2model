@@ -70,6 +70,7 @@ public class MeterModel {
 	private Integer esim_can_cutoff;
 
 	public void nullAll(){
+		this.id = null;
 		this.meter_displayname = null;
 		this.meter_sn = null;
 		this.concentrator_id = null;

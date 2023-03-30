@@ -27,6 +27,7 @@ public class ConcentratorTariffModel {
     private Float tariff_price;
 
     public void nullAll(){
+        this.id = null;
         this.concentrator_id = null;
         this.offer_id = null;
         this.tariff_type = null;

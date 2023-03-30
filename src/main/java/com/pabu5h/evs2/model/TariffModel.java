@@ -31,6 +31,7 @@ public class TariffModel {
     private Long offer_id;
 
     public void nullAll(){
+        this.id = null;
         this.credit_balance = null;
         this.tariff_timestamp = null;
         this.overused_kwh = null;
