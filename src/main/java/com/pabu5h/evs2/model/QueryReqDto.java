@@ -9,6 +9,6 @@ import lombok.Setter;
 @Getter@Setter
 @AllArgsConstructor
 public class QueryReqDto<T> {
-    private final T data;
+    private final T reqData;
 }
 
