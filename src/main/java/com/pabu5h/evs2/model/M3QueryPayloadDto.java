@@ -6,5 +6,6 @@ import lombok.*;
 @Getter
 @Setter
 @AllArgsConstructor
-public class M3QueryPayloadDto {
+public class M3QueryPayloadDto <T>{
+    private final T data;
 }
