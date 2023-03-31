@@ -7,6 +7,6 @@ import lombok.*;
 @Getter@Setter
 @AllArgsConstructor
 public class QueryDto {
-    private final QueryCredDto cred;
-    private final QueryReqDto req;
+    private final QueryCredDto credential;
+    private final Object request;
 }
