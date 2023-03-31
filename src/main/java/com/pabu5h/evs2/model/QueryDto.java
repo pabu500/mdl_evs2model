@@ -8,5 +8,5 @@ import lombok.*;
 @AllArgsConstructor
 public class QueryDto {
     private final QueryCredDto cred;
-    private final QueryPayloadDto payload;
+    private final QueryReqDto req;
 }
