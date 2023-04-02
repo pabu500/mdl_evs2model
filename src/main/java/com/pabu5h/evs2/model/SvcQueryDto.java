@@ -10,6 +10,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class SvcQueryDto {
-    private final SvcClaimDto svcTokenDto;
+    private final SvcClaimDto svcClaimDto;
     private final Object request;
 }
