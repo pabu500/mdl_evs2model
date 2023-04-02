@@ -5,7 +5,7 @@ import lombok.*;
 @Builder
 @Getter@Setter
 @AllArgsConstructor
-public class SvcTokenDto {
+public class SvcClaimDto {
     private final String username;
     private final String svcName;
     private final String endpoint;
