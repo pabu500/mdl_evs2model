@@ -14,6 +14,6 @@ public class IotHistoryMetaDto {
     @JsonProperty("dominant_interval")
     long dominantInterval;
     long duration;
-    @JsonProperty("max_value")
+    @JsonProperty("max_val")
     double maxVal;
 }
