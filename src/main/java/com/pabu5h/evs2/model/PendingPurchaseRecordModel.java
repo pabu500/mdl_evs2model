@@ -15,9 +15,9 @@ import java.time.LocalDateTime;
 @Table(name = "pending_purchase_record")
 public class PendingPurchaseRecordModel {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @Column
     private String transaction_id;
