@@ -22,7 +22,7 @@ public class ConcentratorTariffModel {
     private Long concentrator_id;
     @Column
     private Long offer_id;
-    private Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
+//    private Object tariff_type; // 1- default, 2,3,4,... for more type under same concentrator
     @Column
     private Float tariff_price;
 
@@ -30,7 +30,7 @@ public class ConcentratorTariffModel {
         this.id = null;
         this.concentrator_id = null;
         this.offer_id = null;
-        this.tariff_type = null;
+//        this.tariff_type = null;
         this.tariff_price = null;
     }
 }
