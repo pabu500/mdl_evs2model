@@ -9,7 +9,7 @@ import lombok.Setter;
 @Builder
 @AllArgsConstructor
 public class IotHistoryMetaDto {
-    int dominantIntervalMin;
-    int durationMin;
+    long dominantInterval;
+    long duration;
     double maxVal;
 }
