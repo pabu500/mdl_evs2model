@@ -12,6 +12,6 @@ import java.util.Map;
 @Builder
 @AllArgsConstructor
 public class IotHistoryDto {
-    List<Map<String, Object>> history;
+    List<IotHistoryRowDto> history;
     IotHistoryMetaDto meta;
 }
