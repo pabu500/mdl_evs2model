@@ -12,9 +12,14 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 public class IotHistoryRowDto {
-    LocalDateTime timestamp;
-    double reading_total;
-    double reading_diff;
+    @JsonProperty("reading_timestamp")
+    LocalDateTime readingTimestamp;
+    @JsonProperty("reading_total")
+    double readingTotal;
+    @JsonProperty("reading_diff")
+    double readingDiff;
+    @JsonProperty("reading_interval")
+    double readingInterval;
     @JsonProperty("is_estimated")
     boolean isEstimated;
 }
