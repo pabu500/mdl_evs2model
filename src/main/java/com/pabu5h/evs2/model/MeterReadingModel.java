@@ -44,6 +44,8 @@ public class MeterReadingModel {
     //Latest reading
     @Column(name = "kwh_total")
     private float kwh;
+    @Column(name = "current")
+    private float current;
 
     //TIMESTAMP in shortened ISO8601 format
     //ISO8061: 2019-12-31T23:59:59.999Z
@@ -57,6 +59,7 @@ public class MeterReadingModel {
         this.uid = null;
         this.msn = null;
         this.kwh = 0;
+        this.current = 0;
         this.dt = null;
     }
 
