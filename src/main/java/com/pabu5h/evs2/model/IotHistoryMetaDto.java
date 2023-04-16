@@ -16,4 +16,6 @@ public class IotHistoryMetaDto {
     long duration;
     @JsonProperty("max_val")
     double maxVal;
+    @JsonProperty("avg_val")
+    double avgVal;
 }
