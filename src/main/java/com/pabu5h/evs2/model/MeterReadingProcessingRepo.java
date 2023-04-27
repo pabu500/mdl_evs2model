@@ -5,4 +5,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface MeterReadingProcessingRepo extends CrudRepository<MeterReadingProcessingModel, Long> {
+
 }
