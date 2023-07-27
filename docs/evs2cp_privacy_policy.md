@@ -1,6 +1,6 @@
 layout: page
 title: "Privacy Policy"
-permalink: /
+permalink: /docs
 
 <h1>Privacy Policy</h1>
 <p>Last updated: July 27, 2023</p>
