@@ -45,7 +45,7 @@ public class MeterReading3pModel {
     private double frequency;
     @Column(name = "ap_a_p_t")
     private double allPhaseActivePowerTotal;
-    @Column(name = "ap_r_p")
+    @Column(name = "ap_re_p")
     private double allPhaseReactivePower;
     @Column(name = "ap_a_p")
     private double allPhaseApparentPower;
