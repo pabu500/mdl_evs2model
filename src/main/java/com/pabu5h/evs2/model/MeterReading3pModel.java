@@ -53,9 +53,9 @@ public class MeterReading3pModel {
     private double activeImport;
     @Column(name = "a_exp")
     private double activeExport;
-    @Column(name = "r_lag")
+    @Column(name = "re_lag")
     private double reactiveLag;
-    @Column(name = "r_lead")
+    @Column(name = "re_lead")
     private double reactiveLead;
     @Column(name = "c_md_sb_a_imp")
     private double currentMaxDemandSinceBillingActiveImport;
