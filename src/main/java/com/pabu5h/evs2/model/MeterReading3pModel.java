@@ -1,11 +1,19 @@
 package com.pabu5h.evs2.model;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+@Data
+@Entity
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name = "meter_reading_3p")
 public class MeterReading3pModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
