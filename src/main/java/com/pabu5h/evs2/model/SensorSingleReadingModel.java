@@ -34,4 +34,7 @@ public class SensorSingleReadingModel {
 
     @Column(name = "dt")
     private LocalDateTime dt;
+
+    @Column(name = "type")
+    private String type;
 }
