@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface SensorSingleReadingRepo extends CrudRepository<SensorSingleReadingModel, Long> {
+public interface SensorReadingRepo extends CrudRepository<SensorReadingModel, Long> {
 //Spring Boot 3.0+
 //ListCrudRepository<MeterReadingModel, Long> {
 }

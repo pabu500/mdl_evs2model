@@ -17,8 +17,8 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "sensor_single_reading")
-public class SensorSingleReadingModel {
+@Table(name = "sensor_reading")
+public class SensorReadingModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
