@@ -34,4 +34,7 @@ public class MeterReadingIwowModel {
 
     @Column(name = "dt")
     private LocalDateTime dt;
+
+    @Column(name = "ref")
+    private String ref;
 }
