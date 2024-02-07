@@ -23,6 +23,9 @@ public class MeterReadingIwowModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "type")
+    private String type;
+
     @Column(name = "item_name")
     private String itemName;
 
