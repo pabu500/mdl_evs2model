@@ -17,7 +17,7 @@
         <repository>
             <id>github</id>
             <name>Evs2Helper</name>
-            <url>https://maven.pkg.github.com/pabu500/mdl_evs2modelr</url>
+            <url>https://maven.pkg.github.com/pabu500/mdl_evs2model</url>
         </repository>
     </distributionManagement>
 
