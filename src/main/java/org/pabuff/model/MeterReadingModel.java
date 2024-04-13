@@ -1,4 +1,4 @@
-package com.pabu5h.evs2.model;
+package org.pabuff.model;
 
 //Spring Boot 3.0+
 //import jakarta.persistence.*;

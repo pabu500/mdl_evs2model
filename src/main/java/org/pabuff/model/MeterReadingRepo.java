@@ -1,4 +1,4 @@
-package com.pabu5h.evs2.model;
+package org.pabuff.model;
 
 //Spring Boot 2.5+
 import org.springframework.data.repository.CrudRepository;

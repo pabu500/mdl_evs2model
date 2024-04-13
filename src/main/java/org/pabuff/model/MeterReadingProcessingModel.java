@@ -1,4 +1,4 @@
-package com.pabu5h.evs2.model;
+package org.pabuff.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

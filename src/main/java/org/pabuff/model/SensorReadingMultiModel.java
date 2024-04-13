@@ -1,8 +1,4 @@
-package com.pabu5h.evs2.model;
-
-//Spring Boot 3.0+
-//import jakarta.persistence.*;
-//Spring Boot 2.5+
+package org.pabuff.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -17,8 +13,8 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "sensor_reading")
-public class SensorReadingModel {
+@Table(name = "sensor_reading_multi")
+public class SensorReadingMultiModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -29,12 +25,12 @@ public class SensorReadingModel {
     @Column(name = "item_sn")
     private String itemSn;
 
-    @Column(name = "val")
-    private Double val;
-
     @Column(name = "dt")
     private LocalDateTime dt;
 
-    @Column(name = "type")
-    private String type;
+    @Column(name = "temperature")
+    private Double temperature;
+
+    @Column(name = "humidity")
+    private Double humidity;
 }
