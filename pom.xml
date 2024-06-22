@@ -10,8 +10,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.pabuff</groupId>
-    <artifactId>model</artifactId>
-    <version>2.3.1</version>
+    <artifactId>evs2model</artifactId>
+    <version>2.3.2</version>
 
     <distributionManagement>
         <repository>

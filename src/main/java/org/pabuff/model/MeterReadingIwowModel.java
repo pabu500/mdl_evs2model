@@ -75,4 +75,7 @@ public class MeterReadingIwowModel {
     private Double returnTemp;
     @Column(name = "temp_diff")
     private Double tempDiff;
+
+    @Column(name = "interpolated")
+    private Boolean interpolated;
 }
