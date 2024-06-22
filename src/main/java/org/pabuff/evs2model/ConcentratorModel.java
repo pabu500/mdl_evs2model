@@ -1,4 +1,4 @@
-package org.pabuff.model;
+package org.pabuff.evs2model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

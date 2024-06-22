@@ -4,29 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01c49266-8d69-4d5f-bfbd-bf41ba4cec43" name="Changes" comment="add interpolated">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="01c49266-8d69-4d5f-bfbd-bf41ba4cec43" name="Changes" comment="upgrade to spring boot 3">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorTariffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorTariffModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/Evs2ConsumerTransactionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/Evs2ConsumerTransactionModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/LastReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/LastReadingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/PendingPurchaseRecordModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/PendingPurchaseRecordModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/TariffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/model/TariffModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/ConcentratorTariffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorTariffModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/Evs2ConsumerTransactionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/Evs2ConsumerTransactionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/LastReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/LastReadingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pIwowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReading3pIwowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pIwowRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReading3pIwowRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReading3pModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReading3pRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReading3pRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingBtuIwowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingBtuIwowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingBtuIwowRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingBtuIwowRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingIwowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingIwowRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingIwowRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingProcessingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingProcessingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingProcessingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/MeterReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/PendingPurchaseRecordModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/PendingPurchaseRecordModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SensorReadingModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SensorReadingMultiModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingMultiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SensorReadingMultiRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/SensorReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SensorReadingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/model/TariffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/TariffModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +66,19 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="evs2model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="evs2model" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="model [clean,deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -156,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719042334509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="upgrade to spring boot 3">
+      <option name="closed" value="true" />
+      <created>1719059657738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719059657738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +199,7 @@
     <MESSAGE value="add package" />
     <MESSAGE value="refactor" />
     <MESSAGE value="add interpolated" />
-    <option name="LAST_COMMIT_MESSAGE" value="add interpolated" />
+    <MESSAGE value="upgrade to spring boot 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade to spring boot 3" />
   </component>
 </project>

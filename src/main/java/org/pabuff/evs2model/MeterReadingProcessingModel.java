@@ -1,12 +1,11 @@
-package org.pabuff.model;
-
-import jakarta.persistence.*;
+package org.pabuff.evs2model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Data
@@ -14,8 +13,8 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "meter_reading")
-public class MeterReadingModel {
+@Table(name = "meter_reading_processing")
+public class MeterReadingProcessingModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -59,5 +58,4 @@ public class MeterReadingModel {
         this.current = 0;
         this.dt = null;
     }
-
 }
