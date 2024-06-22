@@ -1,9 +1,6 @@
 package org.pabuff.model;
 
-//Spring Boot 3.0+
-//import jakarta.persistence.*;
-//Spring Boot 2.5+
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,12 +1,9 @@
 package org.pabuff.model;
 
-//Spring Boot 2.5+
-
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.ListCrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface SensorReadingRepo extends CrudRepository<SensorReadingModel, Long> {
-//Spring Boot 3.0+
-//ListCrudRepository<MeterReadingModel, Long> {
+public interface SensorReadingRepo extends ListCrudRepository<SensorReadingModel, Long> {
+
 }

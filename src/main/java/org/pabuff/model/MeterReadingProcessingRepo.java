@@ -1,9 +1,9 @@
 package org.pabuff.model;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.ListCrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MeterReadingProcessingRepo extends CrudRepository<MeterReadingProcessingModel, Long> {
+public interface MeterReadingProcessingRepo extends ListCrudRepository<MeterReadingProcessingModel, Long> {
 
 }

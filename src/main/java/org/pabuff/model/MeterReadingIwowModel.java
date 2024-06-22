@@ -1,15 +1,11 @@
 package org.pabuff.model;
 
-//Spring Boot 3.0+
-//import jakarta.persistence.*;
-//Spring Boot 2.5+
+import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Data
