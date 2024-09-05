@@ -30,97 +30,97 @@ public class SunseapModel {
     private LocalDateTime dt;
 
     @Column(name = "j_01_sppg_cb_in")
-    private int j01SppgCbIn;
+    private Integer j01SppgCbIn;
 
     @Column(name = "j_02_cb_out")
-    private int j02CbOut;
+    private Integer j02CbOut;
 
     @Column(name = "j_03_cb_out")
-    private int j03CbOut;
+    private Integer j03CbOut;
 
     @Column(name = "j_01_tcs_in")
-    private int j01TcsIn;
+    private Integer j01TcsIn;
 
     @Column(name = "j_01_sf6_gas_pressure_low_in")
-    private int j01Sf6GasPressureLowIn;
+    private Integer j01Sf6GasPressureLowIn;
 
     @Column(name = "j_01_ctl_in")
-    private int j01CtlIn;
+    private Integer j01CtlIn;
 
     @Column(name = "j_01_differential_trip_in")
-    private int j01DifferentialTripIn;
+    private Integer j01DifferentialTripIn;
 
     @Column(name = "j_01_protection_trip_in")
-    private int j01ProtectionTripIn;
+    private Integer j01ProtectionTripIn;
 
     @Column(name = "j_01_bat_common_alarm_in")
-    private int j01BatCommonAlarmIn;
+    private Integer j01BatCommonAlarmIn;
 
-    @Column(name = "J_01_intertrip_from_sppg_feeder_in")
-    private int j01IntertripFromSppgFeederIn;
+    @Column(name = "J_01_Integerertrip_from_sppg_feeder_in")
+    private Integer j01IntegerertripFromSppgFeederIn;
 
     @Column(name = "j_01_close_permissive_from_sppg_feeder_in")
-    private int j01ClosePermissiveFromSppgFeederIn;
+    private Integer j01ClosePermissiveFromSppgFeederIn;
 
     @Column(name = "j_02_tcs_out")
-    private int j02TcsOut;
+    private Integer j02TcsOut;
 
     @Column(name = "j_02_sf6_gas_pressure_low_out")
-    private int j02Sf6GasPressureLowOut;
+    private Integer j02Sf6GasPressureLowOut;
 
     @Column(name = "j_02_ctl_out")
-    private int j02CtlOut;
+    private Integer j02CtlOut;
 
     @Column(name = "j_02_protection trip_out")
-    private int j02ProtectionTripOut;
+    private Integer j02ProtectionTripOut;
 
     @Column(name = "j_02_tx_temp_alarm_out")
-    private int j02TxTempAlarmOut;
+    private Integer j02TxTempAlarmOut;
 
     @Column(name = "j_02_tx_pressure_alarm_out")
-    private int j02TxPressureAlarmOut;
+    private Integer j02TxPressureAlarmOut;
 
     @Column(name = "j_02_tx_temp_trip_out")
-    private int j02TxTempTripOut;
+    private Integer j02TxTempTripOut;
 
     @Column(name = "j_02_tx_low_oil_trip_out")
-    private int j02TxLowOilTripOut;
+    private Integer j02TxLowOilTripOut;
 
     @Column(name = "j_02_tx_pressure_trip_out")
-    private int j02TxPressureTripOut;
+    private Integer j02TxPressureTripOut;
 
     @Column(name = "j_02_tx_pressure_relief_trip_out")
-    private int j02TxPressureReliefTripOut;
+    private Integer j02TxPressureReliefTripOut;
 
     @Column(name = "j_03_tcs_out")
-    private int j03TcsOut;
+    private Integer j03TcsOut;
 
     @Column(name = "j_03_sf6_gas_pressure_low_out")
-    private int j03Sf6GasPressureLowOut;
+    private Integer j03Sf6GasPressureLowOut;
 
     @Column(name = "j_03_ctl_out")
-    private int j03CtlOut;
+    private Integer j03CtlOut;
 
     @Column(name = "j_03_protection_trip_out")
-    private int j03ProtectionTripOut;
+    private Integer j03ProtectionTripOut;
 
     @Column(name = "j_03_tx_temp_alarm_out")
-    private int j03TxTempAlarmOut;
+    private Integer j03TxTempAlarmOut;
 
     @Column(name = "j_03_tx_pressure_alarm_out")
-    private int j03TxPressureAlarmOut;
+    private Integer j03TxPressureAlarmOut;
 
     @Column(name = "j_03_tx_temp_trip_out")
-    private int j03TxTempTripOut;
+    private Integer j03TxTempTripOut;
 
     @Column(name = "j_03_tx_low_oil_trip_out")
-    private int j03TxLowOilTripOut;
+    private Integer j03TxLowOilTripOut;
 
     @Column(name = "j_03_tx_pressure_trip_out")
-    private int j03TxPressureTripOut;
+    private Integer j03TxPressureTripOut;
 
     @Column(name = "j_03_tx_pressure_relief_trip_out")
-    private int j03TxPressureReliefTripOut;
+    private Integer j03TxPressureReliefTripOut;
 
     @Column(name = "cctv_alarm_1")
     private Double cctvAlarm1;
