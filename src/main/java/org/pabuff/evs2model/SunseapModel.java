@@ -123,52 +123,52 @@ public class SunseapModel {
     private int j03TxPressureReliefTripOut;
 
     @Column(name = "cctv_alarm_1", nullable = false)
-    private BigDecimal cctvAlarm1;
+    private double cctvAlarm1;
 
     @Column(name = "temp_sensor_1", nullable = false)
-    private BigDecimal tempSensor1;
+    private double tempSensor1;
 
     @Column(name = "temp_sensor_2", nullable = false)
-    private BigDecimal tempSensor2;
+    private double tempSensor2;
 
     @Column(name = "pyranometer", nullable = false)
-    private BigDecimal pryanometer;
+    private double pryanoMeter;
 
     @Column(name = "v_l12", nullable = false)
-    private BigDecimal vL12;
+    private double vL12;
 
     @Column(name = "v_l23", nullable = false)
-    private BigDecimal vL23;
+    private double vL23;
 
     @Column(name = "v_l31", nullable = false)
-    private BigDecimal vL31;
+    private double vL31;
 
     @Column(name = "c_l1", nullable = false)
-    private BigDecimal cL1;
+    private double cL1;
 
     @Column(name = "c_l2", nullable = false)
-    private BigDecimal cL2;
+    private double cL2;
 
     @Column(name = "c_l3", nullable = false)
-    private BigDecimal cL3;
+    private double cL3;
 
     @Column(name = "a_p", nullable = false)
-    private BigDecimal aP;
+    private double aP;
 
     @Column(name = "re_p", nullable = false)
-    private BigDecimal reP;
+    private double reP;
 
     @Column(name = "pf", nullable = false)
-    private BigDecimal pf;
+    private double pf;
 
     @Column(name = "freq", nullable = false)
-    private BigDecimal freq;
+    private double freq;
 
     @Column(name = "kwh_delivery", nullable = false)
-    private BigDecimal kwhDelivery;
+    private double kwhDelivery;
 
     @Column(name = "kwh_received", nullable = false)
-    private BigDecimal kwhReceived;
+    private double kwhReceived;
 
     @Column(name = "created_timestamp", nullable = false)
     private LocalDateTime createdTimestamp;
