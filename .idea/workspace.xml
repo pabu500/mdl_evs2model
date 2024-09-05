@@ -5,25 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01c49266-8d69-4d5f-bfbd-bf41ba4cec43" name="Changes" comment="misc refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SunseapModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SunseapRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorTariffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/ConcentratorTariffModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/LastReadingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/LastReadingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingIwowRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingIwowRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/MeterReadingRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pa621bu500"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="4b29f79b-9473-4cc4-bc2e-1eebe0bac594" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pa621bu500/mdl_evs2model.git",
+    "accountId": "3d9258f8-4b5e-4ba2-8a78-6347e8f7c2d5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
