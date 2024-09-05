@@ -56,8 +56,8 @@ public class SunseapModel {
     @Column(name = "j_01_bat_common_alarm_in")
     private Integer j01BatCommonAlarmIn;
 
-    @Column(name = "J_01_Integerertrip_from_sppg_feeder_in")
-    private Integer j01IntegerertripFromSppgFeederIn;
+    @Column(name = "j_01_intertrip_from_sppg_feeder_in")
+    private Integer j01IntertripFromSppgFeederIn;
 
     @Column(name = "j_01_close_permissive_from_sppg_feeder_in")
     private Integer j01ClosePermissiveFromSppgFeederIn;
