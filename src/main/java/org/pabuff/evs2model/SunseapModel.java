@@ -71,7 +71,7 @@ public class SunseapModel {
     @Column(name = "j_02_ctl_out")
     private Integer j02CtlOut;
 
-    @Column(name = "j_02_protection trip_out")
+    @Column(name = "j_02_protection_trip_out")
     private Integer j02ProtectionTripOut;
 
     @Column(name = "j_02_tx_temp_alarm_out")
