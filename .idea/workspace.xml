@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01c49266-8d69-4d5f-bfbd-bf41ba4cec43" name="Changes" comment="misc refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SunseapModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pabuff/evs2model/SunseapModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
