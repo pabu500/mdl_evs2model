@@ -169,10 +169,4 @@ public class SunseapModel {
 
     @Column(name = "kwh_received")
     private Double kwhReceived;
-
-    @Column(name = "created_timestamp")
-    private LocalDateTime createdTimestamp;
-
-    @Column(name = "updated_timestamp")
-    private LocalDateTime updatedTimestamp;
 }
