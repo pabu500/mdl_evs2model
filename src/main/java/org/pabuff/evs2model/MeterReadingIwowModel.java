@@ -74,4 +74,9 @@ public class MeterReadingIwowModel {
 
     @Column(name = "interpolated")
     private Boolean interpolated;
+
+    @Column(name = "received_total")
+    private Double receivedTotal;
+    @Column(name = "delivered_total")
+    private Double deliveredTotal;
 }
