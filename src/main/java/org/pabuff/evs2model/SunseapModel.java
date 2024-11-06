@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(schema="sunseap",name = "gateway_reading_sunseap")
+@Table(schema="sunseap", name = "gateway_reading_sunseap")
 public class SunseapModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
