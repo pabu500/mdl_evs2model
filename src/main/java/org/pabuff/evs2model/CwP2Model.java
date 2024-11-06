@@ -23,7 +23,7 @@ public class CwP2Model {
     private String meterNumber;
 
     @Column(name = "val")
-    private float val;
+    private Double val;
 
     @Column(name = "dt")
     private LocalDateTime dt;
