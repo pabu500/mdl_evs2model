@@ -164,8 +164,8 @@ public class SunseapModel {
     @Column(name = "freq")
     private Double freq;
 
-    @Column(name = "kwh_delivery")
-    private Double kwhDelivery;
+    @Column(name = "kwh_delivered")
+    private Double kwhDelivered;
 
     @Column(name = "kwh_received")
     private Double kwhReceived;
