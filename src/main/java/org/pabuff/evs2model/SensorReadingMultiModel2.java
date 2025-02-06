@@ -24,7 +24,7 @@ public class SensorReadingMultiModel2 {
     private Long id;
 
     @Column(name = "timestamp")
-    private String timestamp;
+    private LocalDateTime timestamp;
 
     @Column(name = "co2_val")
     private Double co2Val;
