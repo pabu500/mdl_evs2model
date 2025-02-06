@@ -13,7 +13,10 @@ import java.time.LocalDateTime;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "device_reading_farm2")
+@Table(
+        name = "device_reading_farm2",
+        schema = "farm"
+)
 public class SensorReadingMultiModel2 {
 
     @Id
