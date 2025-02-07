@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(
-        name = "device_reading_farm2",
+        name = "device_reading2_farm",
         schema = "farm"
 )
 public class SensorReadingMultiModel2 {
@@ -29,25 +29,19 @@ public class SensorReadingMultiModel2 {
     @Column(name = "co2_val")
     private Double co2Val;
 
-    @Column(name = "co2_timestamp")
-    private LocalDateTime co2Timestamp;
-
     @Column(name = "temperature_val")
     private Double temperatureVal;
-
-    @Column(name = "temperature_timestamp")
-    private LocalDateTime temperatureTimestamp;
 
     @Column(name = "humidity_val")
     private Double humidityVal;
 
-    @Column(name = "humidity_timestamp")
-    private LocalDateTime humidityTimestamp;
-
     @Column(name = "ir_val")
     private Double irVal;
 
-    @Column(name = "ir_timestamp")
-    private LocalDateTime irTimestamp;
+    @Column(name = "reading_timestamp")
+    private LocalDateTime readingTimestamp;
+
+    @Column(name = "item_sn")
+    private String itemSn;
 
 }
