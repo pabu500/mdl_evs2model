@@ -27,4 +27,13 @@ public class CwP2Model {
 
     @Column(name = "dt")
     private LocalDateTime dt;
+
+    @Column(name = "power")
+    private Double power;
+
+    @Column(name = "import_total")
+    private Double importTotal;
+
+    @Column(name = "export_total")
+    private Double exportTotal;
 }
