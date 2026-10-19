@@ -36,4 +36,7 @@ public class CwP2Model {
 
     @Column(name = "export_total")
     private Double exportTotal;
+
+    @Column(name = "battery_percentage")
+    private Double batteryPercentage;
 }
